@@ -24,7 +24,7 @@ public static async Task<IActionResult> Run(HttpRequest req, string userpath, IL
     log.LogInformation("C# HTTP trigger function processed a request.");    
     string path = exc.FunctionDirectory;
     log.LogInformation($"Current working directory is {path}.");
-    string sitesFile = $"{path}\\host.json";
+    string sitesFile = $"{path}\\Sites.json";
     string text;
     try
     {
