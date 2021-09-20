@@ -1,0 +1,16 @@
+{
+  "Sites": [
+    {
+      "Name": "bing",
+      "Url": "https://www.bing.com"
+    },
+    {
+      "Name": "google",
+      "Url": "https://www.google.com"
+    },
+    {
+      "Name": "d",
+      "Url": "https://www.duckduckgo.com"
+    }
+  ]
+}
