@@ -45,11 +45,11 @@ public static async Task<IActionResult> Run(HttpRequest req, string userpath, IL
     if(result == null)
     {
         log.LogInformation($"Result was null.");
-        return new RedirectResult("https://www.fandango.com");
+        return new RedirectResult("https://www.fandango.com", false);
     }
     else
     {
         log.LogInformation($"Result {result.Name}.");
-        return new RedirectResult(result.Url);
+        return new RedirectResult(result.Url, false);
     }
 }
